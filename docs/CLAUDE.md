@@ -81,6 +81,9 @@ memória.
     `ui-ux-prox-max`.** Toda tarefa de backend Python usa `fullstack-dev-skills`. Ao final de
     qualquer tarefa de desenvolvimento — frontend ou backend — rode `security-guidance` e
     `code-review` antes de considerar a tarefa concluída. Detalhe em `docs/07-fluxo-qualidade.md`.
+15. **Nunca commitar direto em `main`.** Toda mudança vai em branch `feature/{nome}` (ou
+    `fix/{nome}` para correção), com PR para `main`. `main` só recebe merge via PR com o gate de
+    CI verde (ADR-013, `docs/07-fluxo-qualidade.md`).
 
 ## Skills obrigatórias (resumo — detalhe em `docs/07-fluxo-qualidade.md`)
 
